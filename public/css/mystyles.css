@@ -1,0 +1,174 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.nav {
+    background-color: #161f2c;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a.active {
+    background-color: #ed1d49;
+    color: white;
+}
+
+.nav-1{
+    width: 20%;
+}
+
+.nav-2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container{
+    width: 40%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+form.barra-busqueda{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+form.barra-busqueda > input{
+    height: 35px;
+    width: 80%;
+}
+
+.nav-3{
+    display: flex;
+    width: 20%;
+    justify-content: flex-end
+}
+
+
+i.fa{
+    font-size:x-large;
+}
+
+.top-header{
+    display: flex;
+}
+
+.top-contacta{
+    width: 50%;
+}
+
+.top-menu-derecha{
+    width: 50%;
+    display: flex;
+}
+
+footer{
+    width: 10%;
+    background-color: #161f2c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 900;
+    width: 100%;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+.inici-container{
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.container-nuevo-producto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #202a39;
+    color: white;
+}
+
+.container-form-producto{
+    height: auto;
+    background-color: #202a39;
+    border: 2px #2283f6 solid;
+    padding: 20px;
+
+    height: 87%;
+}
+
+.form-producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.crear-producto{
+    background-color: #2283f6;
+    color: white;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.form-producto > label{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #ed1d49;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+textarea{
+    height: 70px;
+}
+
+.form-producto > input:focus-visible{
+    outline: #ed1d49 solid 1px!important
+    ;
+}
+
+
+.error{
+    color: red;
+    font-size: x-large;
+}
